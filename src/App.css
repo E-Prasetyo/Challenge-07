@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.full-body{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.full-body-height{
+  min-height: 90vh;
+  height: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-cars-card{
+  width: 100%;
+  height: 250px;
+}
+.font-title{
+  font-size: 12px;
+}
+.font-price{
+  font-size: 14px;
+  font-weight: bold;
+}
+.font-rent{
+  font-size: 12px;
+}
+.icon-size{
+  width: 15px;
+  height: 20px;
+}
+.icon-button{
+  width: 15px;
+  height: 18px; 
+}
+.text-swiper{
+  font-size: 12px;
 }
